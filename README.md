@@ -107,3 +107,14 @@ The middleware has a constructor take takes the following arguments:
             rootDirectory: __dirname
         }
     }
+
+## Debugging
+To debug (OS X / Linux):
+
+    export DEBUG=connect-ioc
+
+Or on Windows;
+
+    set DEBUG=connect-ioc
+
+This will show debug information about what your application is doing and why.
