@@ -51,5 +51,8 @@
   "dependencies": {
     "debug": "^2.2.0",
     "glob": "^7.0.3"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
