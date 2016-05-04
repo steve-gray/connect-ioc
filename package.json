@@ -49,6 +49,7 @@
     "supertest-as-promised": "^3.1.0"
   },
   "dependencies": {
+    "debug": "^2.2.0",
     "glob": "^7.0.3"
   }
 }
