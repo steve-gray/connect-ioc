@@ -13,7 +13,8 @@ IoC middleware functionality for Express/Connect based web applications. Uses th
 project as the container implementation but can use alternate providers that implement the same
 contract. 
 
-Targets NodeJS >= 4.x
+Targets NodeJS >= 4.x, support for all later versions (including up to 6.x). For
+specific versions we test with, please review the .travis.yml file in our repository.
 
 ## Installation
 To install:
