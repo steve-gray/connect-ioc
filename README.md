@@ -26,13 +26,15 @@ To add the middleware to your application:
 
         const ioc = require('connect-ioc');
 
-        // Create instance and register
+        // Create instance of the IoC middleware
         const instance = ioc();
 
-        // Register objects for injection
-        ioc.rootContainer.register('someService', class|arrowFunc|func|obj-here);
+        // Register objects for injection with
+        // the root container
+        instance.rootContainer.register('someService', class|arrowFunc|func|obj-here);
 
-        // App = Your Express/Connect App
+        // Register the middleware function with
+        // your Express/Connect application.
         app.use(ioc.middleware);
 
 Within your requests you will now have the following `ioc` object attached to `req`:
