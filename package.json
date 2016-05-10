@@ -1,6 +1,6 @@
 {
   "name": "connect-ioc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "IoC/Inversion of control for NodeJS web applications, allowing per-request ephemeral objects and dynamic buildup.",
   "main": "src/index.js",
   "scripts": {
