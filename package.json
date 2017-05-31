@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/steve-gray/connect-ioc#readme",
   "devDependencies": {
-    "chai": "^3.5.0",
+    "chai": "^4.0.1",
     "chai-as-promised": "^5.3.0",
     "config": "^1.21.0",
     "connect": "^3.4.1",
